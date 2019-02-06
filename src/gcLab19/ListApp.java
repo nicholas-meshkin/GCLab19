@@ -34,9 +34,9 @@ public class ListApp {
 		list.removeFromBeginning();
 		list.removeFromEnd();
 		System.out.println(list);
-		list.insertAt(0, "butt");
+		list.insertAt(0, "dddddd");
 		System.out.println(list);
-		list.insertAt(0,"fart");
+		list.insertAt(0,"sdfds");
 		System.out.println(list);
 		list.removeAt(0);
 		
@@ -45,7 +45,7 @@ public class ListApp {
 		System.out.println(list);
 		System.out.println(list.size());
 		System.out.println(list.get(0));
-		System.out.println(list.get(4));//fix get out of range
+		System.out.println(list.get(2));
 		System.out.println(list);
 	}
 
